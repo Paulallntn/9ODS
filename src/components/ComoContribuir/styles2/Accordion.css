@@ -18,7 +18,8 @@
     font-size: 2rem; /* Tamaño del título */
     font-weight: bold; /* Grosor del título */
     margin: 20px 0; /* Espacio alrededor del título */
-    color: rgb(0, 0, 0); /* Color del texto */
+    color: rgb(94, 94, 94); /* Color del texto */
+    padding-bottom: 20px;
 }
 
 .header-image-wrapper {
@@ -81,27 +82,33 @@
 }
 
 .accordion-image {
-    width: 175px;
+    width: 300px;
     height: auto;
-    margin-right: 16px;
+    margin-right: 40px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgba(145, 145, 145, 0.5);
+    margin-left: 40px;
 }
 
 .accordion-text {
     flex: 1;
+    display: flex; /* Mantén el flex para el contenedor */
+    flex-direction: column; /* Alinea los elementos en una columna */
     text-align: left;
     color: #434343;
     white-space: normal;
     text-overflow: clip;
     overflow: visible;
-   display: block;
+    margin-right: 40px;
 }
 
 .accordion-text h4 {
-  color: #228862bd;
-  text-align: left; /* Alinea el texto a la izquierda dentro de su contenedor */
+    align-self: flex-start;
+    color: #228862bd;
+    margin: 0; /* Elimina el margen si es necesario */
+    padding-bottom: 20px; /* Elimina el padding si es necesario */
 }
+
 
 @media (max-width: 700px) {
     .accordion-row {

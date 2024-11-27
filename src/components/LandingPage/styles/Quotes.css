@@ -2,6 +2,10 @@
     padding: 4rem;
     min-height: 100vh;
     text-align: left;
+    background-image: url('C:\Users\Paula\Desktop\9ods-project\src\assets\Quotes\Sprint Final.jpg');
+    background-size: cover;
+    background-position: right; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
   }
   
   .quotes-container h2 {

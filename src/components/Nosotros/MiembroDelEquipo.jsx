@@ -1,5 +1,3 @@
-
-
 const MiembroDelEquipo = ({ nombre, rol, iniciales }) => {
   return (
     <div style={{ margin: '10px', textAlign: 'center' }}>

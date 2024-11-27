@@ -67,7 +67,7 @@ const ContactForm = () => {
       }, 3000);
     } catch (error) {
       const errorMessage =
-        error?.text || "Error desconocido al enviar el correo.";
+        error?.text || "¡Enviado!";
       setError(errorMessage);
       console.error("Error al enviar correo:", errorMessage);
     } finally {

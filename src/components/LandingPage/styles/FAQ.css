@@ -5,7 +5,8 @@
     justify-content: center;
     border-top: 4px groove #00000029;
     border-bottom: 4px groove rgba(0, 0, 0, 0.159);
-    background-color: rgba(255, 255, 255, 0.608);
+    background-image: url('C:\Users\Paula\Desktop\9ods-project\src\assets\Quotes\Sprint Final.jpg');
+    background-position:left;
     padding: 2rem;
     min-height: 100vh;
     box-sizing: border-box;

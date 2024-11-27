@@ -61,9 +61,9 @@ function AllCollapseExample() {
                 <div className="content-row">
                   <img src={img} alt="Image not found" className="accordion-image" />
                   <div className="accordion-text">
-                    <h4 >
+                    <h4>
                       Utiliza iluminación LED en casa o empresa.</h4>
-                    <h6>Si dispones de grandes ventanales también puedes aprovechar las horas de luz natural y consultar la posibilidad de instalar placas fotovoltaicas para convertir la luz del sol en energía.</h6>
+                    <p>Si dispones de grandes ventanales también puedes aprovechar las horas de luz natural y consultar la posibilidad de instalar placas fotovoltaicas para convertir la luz del sol en energía.</p>
                     <h6>
                     <button type="button" className="btn custom-btn" onClick={handleShowFirstModal}>
                       Infografía
@@ -75,9 +75,9 @@ function AllCollapseExample() {
                   <img src={img2} alt="Image not found" className="accordion-image" />
                   <div className="accordion-text">
                     <h4>Controla la temperatura de tu espacio.</h4>
-                    <h6 >
+                    <p>
                       A veces, un aire acondicionado muy fuerte hace que sintamos frío en verano dentro de un establecimiento. Y lo mismo sucede en los hogares. Si controlas programas la calefacción y el aire acondicionado a temperaturas intermedias, el ambiente será más agradable y ahorrarás energía.
-                      </h6>
+                      </p>
                       <h6>
                       <button type="button" className="btn custom-btn" onClick={handleShowSecondModal}>
                       Infografía
@@ -89,9 +89,9 @@ function AllCollapseExample() {
                   <img src={img3} alt="Image not found" className="accordion-image" />
                   <div className="accordion-text">
                     <h4>Evita utilizar materiales que no sean reciclables.</h4>
-                    <h6>
+                    <p>
                       Separa los residuos, fomenta el reciclaje, los envases retornables y el material reciclado, como el papel para oficina o el aprovechamiento de materiales para crear objetos artesanales tipo DIY (hazlo tú mismo), son algunas de las acciones que puedes comenzar a implementar. La Industria Mexicana de Coca-Cola es el mayor reciclador de PET grado alimenticio en América Latina.
-                    </h6>
+                    </p>
                     <h6>
                     <button type="button" className="btn custom-btn" onClick={handleShowThirdModal}>
                       Infografía

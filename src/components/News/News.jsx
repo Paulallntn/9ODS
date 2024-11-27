@@ -19,7 +19,7 @@ const News = () => {
   const mainNews = detailedNewsData[0];
 
   return (
-    <>
+    <div className='newscontainerall'>
       <Header />
       <TitleNews />
       <main className='container-news'>
@@ -43,7 +43,7 @@ const News = () => {
         )}
       </main>
       <Footer />
-    </>
+    </div>
   );
 };
 

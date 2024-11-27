@@ -9,6 +9,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 1rem auto; /* Centrado automático */
   transition: transform 0.2s;
+  background-color: rgb(255, 255, 255);
 }
 
 .news-card:hover {
@@ -18,7 +19,7 @@
 /* Cambiar para que el contenedor de la imagen tenga tamaño fijo */
 .news-card-image {
   width: 500px; /* Ancho fijo para la imagen */
-  height: 350px; /* Alto fijo para la imagen */
+  height: 400px; /* Alto fijo para la imagen */
   overflow: hidden;
   flex-shrink: 0; /* Evita que el contenedor de la imagen se reduzca */
 }
